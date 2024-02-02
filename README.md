@@ -10,6 +10,9 @@ https://www.arrl.org/files/file/Regulatory/Band%20Chart/Band%20Chart%20-%2011X17
 
 WSPR reception setup using RTL-SDR dongle V3 https://docs.google.com/document/d/10_xEGW_tdC7LhA-5_UE7ZmgMfPv4ySvz6DQrv02X4ek/edit?usp=sharing
 
+https://www.vk6ysf.com/wspr_frequ.htm
+
+
 # Windows Time Sync Frequency 
 
 Set to every 6 hrs
