@@ -12,6 +12,15 @@ WSPR reception setup using RTL-SDR dongle V3 https://docs.google.com/document/d/
 
 https://www.vk6ysf.com/wspr_frequ.htm
 
+Generally
+* use USB 
+* use 2500 bandwidth
+* turn down the gain until wsjt-x is green
+* RTLSDR/Airspy
+* Sample Rate 1.024
+* Sample Mode Direct Sampling (Q branch)
+* Correct IQ
+
 
 # Windows Time Sync Frequency 
 
@@ -21,3 +30,5 @@ C:\Windows\system32>reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Servic
 
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpClient
     SpecialPollInterval    REG_DWORD    0x5460
+
+Or use NetTime and set a faster frequency.  Some recommend 15 min.  Ive had fine experience with 75 min.
