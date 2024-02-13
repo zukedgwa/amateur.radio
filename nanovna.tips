@@ -1,0 +1,24 @@
+NanoVNA Tips
+
+To see just SWR: 
+
+Make sure to select DISPLAY->CHANNEL = "S11 (REFL)", not "S21 (THRU)", for measurements like SWR and SMITH charts made on PORT 1 (S11).
+
+For HF calibration, use 1 MHz to 30 MHz stimulus range:
+STIMULUS->START = 1 MHz, STIMULUS->STOP = 30 MHz.
+By all means use a smaller range for higher accuracy if necessary.
+
+Always reset calibration data before performing another one: CALIBRATE->RESET.
+
+Perform Open-Short-Load calibration and save result:
+CALIBRATE->OPEN..SHORT..LOAD..DONE->"SAVE 0".
+All settings and calibration data stored in "SAVE 0" will be loaded upon power-up.
+
+Verify good calibration by placing Open-Short-Load devices on PORT 1 and observe that "dot" position appears at right-left-center on SMITH chart center axis.
+
+
+If calibration was done right at the SMA connector on PORT 1 but an open coaxial jumper and/or adaptor is later added, the SMITH chart will show a rotated arc instead of a "dot".  By introducing an electrical delay the calibration reference plane can be moved to the end of the jumper/adaptor to compensate.
+Automatically: MARKER->OPERATIONS->E-DELAY
+Manually: DISPLAY->SCALE->E-DELAY = "value" (+/- nS or pS)
+Re-save to include in location of choice, e.g. "SAVE 0", "SAVE 1", etc.
+
