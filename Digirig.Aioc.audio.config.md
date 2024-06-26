@@ -1,6 +1,7 @@
 Adapted from: https://youtu.be/IrnzWVdOlu8?si=VCtpf9ePnzZWttDh
 
 -- Setup Digirig (or AIOC)
+Useful for QuanshengDock or for Digirig and Audacity
 
 Sound
 * Recording
