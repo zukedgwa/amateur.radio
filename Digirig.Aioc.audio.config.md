@@ -1,19 +1,22 @@
 Adapted from: https://youtu.be/IrnzWVdOlu8?si=VCtpf9ePnzZWttDh
 
--- Setup Digirig (or AIOC)
+---
+Setup Digirig (or AIOC)
 Useful for QuanshengDock or for Digirig and Audacity
 
+---
 Sound
-* Recording
 
-** USB Audio Device (for digirig)
+- Recording
+
+-- USB Audio Device (for digirig)
   
-*** Properties > Listen > Speakers (HD Audio device) + Listen to this device
+--- Properties > Listen > Speakers (HD Audio device) + Listen to this device
 
-*** Properties > Levels 0
+--- Properties > Levels 0
 
-
--- To setup PC Mic to Radio (digirig)
+---
+To setup PC Mic to Radio (digirig)
 
 Sound
 
@@ -24,8 +27,8 @@ Sound
 *** Properties > Listen > Speakers (USB Audio Device (digirig)) + Listen to this device
 
 * Then I disable this for testing
-
--- To Setup PC Speaker
+---
+To Setup PC Speaker
 
 Sound
 
@@ -44,6 +47,9 @@ Sound
 ** Speakers (High Defintion Audio Device)
 
 *** Properties > Levels > Speakers:78
+
+---
+If you try this with an Anytone AT-778UV it will work. If plugging in the audio puts the device in tx mode, then unplug the mic side of the cable, turn off VOX.  Plug back in and then enable vox.
 
 
 
