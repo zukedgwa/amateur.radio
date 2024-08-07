@@ -27,10 +27,10 @@ So we have 3.5mm TRRS and 2.5mm TRRS
 
 And on the USB side we have: 3v, TX, RX, GND, 5V for the connections.  There are only four that are part of the USB A side of the connection.
   * https://a.co/d/1qLUCxV
-    * 1: 5V
-    * 2:
-    * 3:
-    * 4:
+    * 1: VCC (5V)
+    * 2: D-
+    * 3: D+
+    * 4: GND
 
 So a ton of possible connections
 
