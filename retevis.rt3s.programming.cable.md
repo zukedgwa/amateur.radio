@@ -2,7 +2,7 @@ https://www.ebay.com/itm/184381660961 ; DMR Retevis RT3S Ham Radio DMR Dual Band
 
 I bought this months ago to play around with APRS.  I was never able to program this, so it sat there with me trying different things over a few months with no success.  It's summer road trip season, so i was hoping to play around with this on the road, so I really wanted to get this to work.
 
-Ive had a terrible time trying different cables.  No matter what I did, I couldnt seem to get a "STM Device in DFU mode" in device manager.
+Ive had a terrible time trying different cables.  No matter what I did, I couldnt seem to get a "STM Device in DFU mode" in device manager.  I would always get "please check whether the USB is occupied or not connected" when I tried to connect via the software.  Argh!
 
 Inspired by this, I started buying parts instead of premade cables.
 https://www.miklor.com/COM/UV_ProgrCable.php
