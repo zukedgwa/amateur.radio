@@ -10,7 +10,15 @@ https://www.miklor.com/COM/UV_ProgrCable.php
 So basicaly we are trying to connect a Kenwood K1 type connector to USB
 https://www.buytwowayradios.com/wp/wp-content/uploads/2/sites/2/images/K1-audio-connector.jpg
 
-My first attempt at that was to use the USB CP2102 item there and a baofeng microphone cable.  That didnt work.  Continuity tester proves that the pins that were wired from the K1 connnector were just wrong for this usage.  TODO: Add actual
+My first attempt at that was to use the USB CP2102 item there and a Baofeng (not exactly sure which radio it went with) microphone cable.  That didnt work.  Continuity tester proves that the pins that were wired from the K1 connnector were just wrong for this usage.  
+
+3.5mm
+ * S: Black
+ * R: Red
+
+2.5mm
+ * T: G
+ * S: W
 
 So the weird combo of 3.5mm and 2.5mm TRS jacks makes this a pain because there are so many options
 
@@ -19,6 +27,7 @@ So we have 3.5mm TRRS and 2.5mm TRRS
     * T:1:Left:Red
     * R:2:Right:White
     * S:3:Ground:Black
+      
   * https://a.co/d/89ZCiMB
     * T: PIN 1 - red wire is the left channel
     * R: PIN 2 - white wire is the right channel
@@ -26,6 +35,7 @@ So we have 3.5mm TRRS and 2.5mm TRRS
     * S: PIN 4 - black wire is ground
 
 And on the USB side we have: 3v, TX, RX, GND, 5V for the connections.  There are only four that are part of the USB A side of the connection.
+
   * https://a.co/d/1qLUCxV
     * 1: VCC (5V)
     * 2: D-
